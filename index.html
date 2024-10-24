@@ -9,103 +9,32 @@
     <link rel="stylesheet" href="/styles/normalize.css" />
     <link rel="stylesheet" href="/styles/styles.css" />
   </head>
-  <body style="display: flex; flex-direction: column">
-    <header
-      style="display: flex; justify-content: space-around; margin-top: 15px"
-    >
-      <div
-        style="
-          width: 10%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        "
-      >
-        <img
-          style="width: 120px; height: 35px"
-          src="/images/logo.png"
-          alt="logo"
-        />
-      </div>
+  <body class="body">
+    <header class="header">
+      <div class="header__block">
+        <img class="header__logo" src="/images/logo.png" alt="logo" />
 
-      <nav style="width: 60%">
-        <ul style="display: flex; justify-content: space-around">
-          <li><a href="#">Как покупать</a></li>
-          <li><a href="#">Распродажи</a></li>
-          <li><a href="#">Цены</a></li>
-          <li><a href="#">Помощь</a></li>
-          <li><a href="#">Бонусы</a></li>
-          <li><a href="#">Блог</a></li>
-          <li><a href="#">Магазины</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <div>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li><a href="#">Как покупать</a></li>
+            <li><a href="#">Распродажи</a></li>
+            <li><a href="#">Цены</a></li>
+            <li><a href="#">Помощь</a></li>
+            <li><a href="#">Бонусы</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Магазины</a></li>
+          </ul>
+        </nav>
         <img
-          style="width: 14px; height: 14px"
+          class="navigation__user"
           src="/images/User icon.png"
           alt="user image"
         />
-        <p
-          style="
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-              sans-serif;
-            font-weight: 600;
-            font-size: 15px;
-          "
-        >
-          Вход
-        </p>
-        <button
-          style="
-            width: 170px;
-            height: 48px;
-            border-radius: 36px;
-            border: 0;
-            background: linear-gradient(#00c97b, #00d981);
-          "
-        >
-          <span
-            style="
-              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-                sans-serif;
-              font-weight: 700;
-              font-size: 13px;
-              color: white;
-            "
-            >Связаться с нами</span
-          >
+        <p class="header__entry">Вход</p>
+        <button class="header__button">
+          <span> Связаться с нами</span>
         </button>
       </div>
-      <!-- <div
-        style="
-          background: linear-gradient(#5b52a3, #40b8ea);
-          width: 1800px;
-          height: 680px;
-          border-radius: 36px;
-        "
-      >
-        <h1
-          style="
-            padding-left: 260px;
-            padding-top: 216px;
-            color: white;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-              sans-serif;
-            font-weight: 800;
-            font-size: 72px;
-          "
-        >
-          Доставка товаров из Великобритании в Россию
-        </h1>
-        <img
-          style="width: 573px; height: 571px"
-          src="/week_3p3/images/planet.png"
-          alt="planet-delivery"
-        />
-      </div> -->
-    </main>
+    </header>
   </body>
 </html>
