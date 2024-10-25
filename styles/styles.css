@@ -116,7 +116,10 @@
 .advantage {
   max-width: 1400px;
   height: 893px;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
 h2 {
@@ -124,13 +127,46 @@ h2 {
   font-weight: 800;
   font-size: 44px;
   margin-left: 100px;
+  margin-top: 100px;
 }
 
 .advantage__image {
-  max-width: 499px;
-  height: 475px;
+  max-width: 470px;
+  height: 465px;
   background: url("/images/Ellipse\ 1.png");
   border-radius: 100%;
   background-repeat: no-repeat;
-  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advantage__price {
+  width: 400px;
+}
+
+h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  margin-top: 80px;
+}
+
+.advantage__flag {
+  width: 75px;
+  height: 54px;
+  margin-left: 25px;
+}
+
+.advantage__wrap {
+  margin-top: 20px;
+  width: 400px;
+  height: 120px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  background-color: #d8dee8;
+  border-radius: 16px;
+  line-height: 36px;
 }
